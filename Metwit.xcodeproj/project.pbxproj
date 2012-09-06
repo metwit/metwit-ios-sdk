@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC527F1815F8F23600A962AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC527F1715F8F23600A962AE /* Foundation.framework */; };
+		FC527F1D15F8F23600A962AE /* Metwit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC527F1C15F8F23600A962AE /* Metwit.h */; };
+		FC527F1F15F8F23600A962AE /* Metwit.m in Sources */ = {isa = PBXBuildFile; fileRef = FC527F1E15F8F23600A962AE /* Metwit.m */; };
+		FC527F2715F8F23600A962AE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC527F2615F8F23600A962AE /* SenTestingKit.framework */; };
+		FC527F2915F8F23600A962AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC527F2815F8F23600A962AE /* UIKit.framework */; };
+		FC527F2A15F8F23600A962AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC527F1715F8F23600A962AE /* Foundation.framework */; };
+		FC527F2D15F8F23600A962AE /* libMetwit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FC527F1415F8F23600A962AE /* libMetwit.a */; };
+		FC527F3315F8F23600A962AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC527F3115F8F23600A962AE /* InfoPlist.strings */; };
+		FC527F3615F8F23600A962AE /* MetwitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC527F3515F8F23600A962AE /* MetwitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC527F2B15F8F23600A962AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC527F0B15F8F23600A962AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC527F1315F8F23600A962AE;
+			remoteInfo = Metwit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FC527F1215F8F23600A962AE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				FC527F1D15F8F23600A962AE /* Metwit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FC527F1415F8F23600A962AE /* libMetwit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMetwit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC527F1715F8F23600A962AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC527F1B15F8F23600A962AE /* Metwit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Metwit-Prefix.pch"; sourceTree = "<group>"; };
+		FC527F1C15F8F23600A962AE /* Metwit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Metwit.h; sourceTree = "<group>"; };
+		FC527F1E15F8F23600A962AE /* Metwit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Metwit.m; sourceTree = "<group>"; };
+		FC527F2515F8F23600A962AE /* MetwitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetwitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC527F2615F8F23600A962AE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC527F2815F8F23600A962AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FC527F3015F8F23600A962AE /* MetwitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetwitTests-Info.plist"; sourceTree = "<group>"; };
+		FC527F3215F8F23600A962AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC527F3415F8F23600A962AE /* MetwitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetwitTests.h; sourceTree = "<group>"; };
+		FC527F3515F8F23600A962AE /* MetwitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetwitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC527F1115F8F23600A962AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC527F1815F8F23600A962AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC527F2115F8F23600A962AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC527F2715F8F23600A962AE /* SenTestingKit.framework in Frameworks */,
+				FC527F2915F8F23600A962AE /* UIKit.framework in Frameworks */,
+				FC527F2A15F8F23600A962AE /* Foundation.framework in Frameworks */,
+				FC527F2D15F8F23600A962AE /* libMetwit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC527F0915F8F23600A962AE = {
+			isa = PBXGroup;
+			children = (
+				FC527F1915F8F23600A962AE /* Metwit */,
+				FC527F2E15F8F23600A962AE /* MetwitTests */,
+				FC527F1615F8F23600A962AE /* Frameworks */,
+				FC527F1515F8F23600A962AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC527F1515F8F23600A962AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC527F1415F8F23600A962AE /* libMetwit.a */,
+				FC527F2515F8F23600A962AE /* MetwitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC527F1615F8F23600A962AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC527F1715F8F23600A962AE /* Foundation.framework */,
+				FC527F2615F8F23600A962AE /* SenTestingKit.framework */,
+				FC527F2815F8F23600A962AE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC527F1915F8F23600A962AE /* Metwit */ = {
+			isa = PBXGroup;
+			children = (
+				FC527F1C15F8F23600A962AE /* Metwit.h */,
+				FC527F1E15F8F23600A962AE /* Metwit.m */,
+				FC527F1A15F8F23600A962AE /* Supporting Files */,
+			);
+			path = Metwit;
+			sourceTree = "<group>";
+		};
+		FC527F1A15F8F23600A962AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC527F1B15F8F23600A962AE /* Metwit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC527F2E15F8F23600A962AE /* MetwitTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC527F3415F8F23600A962AE /* MetwitTests.h */,
+				FC527F3515F8F23600A962AE /* MetwitTests.m */,
+				FC527F2F15F8F23600A962AE /* Supporting Files */,
+			);
+			path = MetwitTests;
+			sourceTree = "<group>";
+		};
+		FC527F2F15F8F23600A962AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC527F3015F8F23600A962AE /* MetwitTests-Info.plist */,
+				FC527F3115F8F23600A962AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC527F1315F8F23600A962AE /* Metwit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC527F3915F8F23600A962AE /* Build configuration list for PBXNativeTarget "Metwit" */;
+			buildPhases = (
+				FC527F1015F8F23600A962AE /* Sources */,
+				FC527F1115F8F23600A962AE /* Frameworks */,
+				FC527F1215F8F23600A962AE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metwit;
+			productName = Metwit;
+			productReference = FC527F1415F8F23600A962AE /* libMetwit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC527F2415F8F23600A962AE /* MetwitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC527F3C15F8F23600A962AE /* Build configuration list for PBXNativeTarget "MetwitTests" */;
+			buildPhases = (
+				FC527F2015F8F23600A962AE /* Sources */,
+				FC527F2115F8F23600A962AE /* Frameworks */,
+				FC527F2215F8F23600A962AE /* Resources */,
+				FC527F2315F8F23600A962AE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC527F2C15F8F23600A962AE /* PBXTargetDependency */,
+			);
+			name = MetwitTests;
+			productName = MetwitTests;
+			productReference = FC527F2515F8F23600A962AE /* MetwitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC527F0B15F8F23600A962AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Metwit;
+			};
+			buildConfigurationList = FC527F0E15F8F23600A962AE /* Build configuration list for PBXProject "Metwit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FC527F0915F8F23600A962AE;
+			productRefGroup = FC527F1515F8F23600A962AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC527F1315F8F23600A962AE /* Metwit */,
+				FC527F2415F8F23600A962AE /* MetwitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC527F2215F8F23600A962AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC527F3315F8F23600A962AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FC527F2315F8F23600A962AE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC527F1015F8F23600A962AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC527F1F15F8F23600A962AE /* Metwit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC527F2015F8F23600A962AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC527F3615F8F23600A962AE /* MetwitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC527F2C15F8F23600A962AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC527F1315F8F23600A962AE /* Metwit */;
+			targetProxy = FC527F2B15F8F23600A962AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC527F3115F8F23600A962AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC527F3215F8F23600A962AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC527F3715F8F23600A962AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC527F3815F8F23600A962AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC527F3A15F8F23600A962AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Metwit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metwit/Metwit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FC527F3B15F8F23600A962AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Metwit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metwit/Metwit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FC527F3D15F8F23600A962AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metwit/Metwit-Prefix.pch";
+				INFOPLIST_FILE = "MetwitTests/MetwitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FC527F3E15F8F23600A962AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metwit/Metwit-Prefix.pch";
+				INFOPLIST_FILE = "MetwitTests/MetwitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC527F0E15F8F23600A962AE /* Build configuration list for PBXProject "Metwit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC527F3715F8F23600A962AE /* Debug */,
+				FC527F3815F8F23600A962AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC527F3915F8F23600A962AE /* Build configuration list for PBXNativeTarget "Metwit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC527F3A15F8F23600A962AE /* Debug */,
+				FC527F3B15F8F23600A962AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC527F3C15F8F23600A962AE /* Build configuration list for PBXNativeTarget "MetwitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC527F3D15F8F23600A962AE /* Debug */,
+				FC527F3E15F8F23600A962AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC527F0B15F8F23600A962AE /* Project object */;
+}
